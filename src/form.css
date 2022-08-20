@@ -1,0 +1,78 @@
+.formWrapper {
+  width: 1200px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.formWrapper h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formWrapper .container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.currentStep {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.container .image {
+  width: 300px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container .image img {
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+
+.currentStep h2 {
+  font-size: 1.5rem;
+}
+
+.currentStep h3 {
+  font-size: 1.25rem;
+}
+
+.currentStep h2, .currentStep input {
+  margin-bottom: 2rem;
+}
+
+.currentStep h3 {
+  margin-bottom: 2rem;
+}
+
+.summaryQuestion {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.summaryQuestion h2 {
+  width: 400px;
+}
+
+.summaryQuestion p {
+  width: 600px;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+.summaryQuestion button {
+  width: 200px;
+  margin-left: auto;
+}

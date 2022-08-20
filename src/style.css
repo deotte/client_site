@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+}
+
+#app {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 250px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button, li, ul, input, option {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: .5rem;
+  max-width: 200px;
+}
+
+button:hover {
+  box-shadow: 0 0 .5rem #cccccc;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  font-size: 1rem;
+  padding: .5rem;
+  max-width: 400px;
+  border-radius: .5rem;
+  box-shadow: none;
+  border: 1px solid #000000;
+}
+
+input[type=text], input[type=date] {
+  width: 400px;
+}
+
+select {
+  padding: .5rem;
+  width: 400px;
+  border-radius: .5rem;
+  box-shadow: none;
+  margin-bottom: 2rem;
+}
+
+#previous-btn {
+  margin-right: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
